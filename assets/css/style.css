@@ -1,0 +1,289 @@
+/* FONT: https://fonts.googleapis.com/css?family=Play */
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+body {
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+	background: #f5f5f5;
+}
+
+.hero-body h1.title {
+	font-family: Play, sans-serif;
+	margin-top: .8em;
+}
+
+.header-image {
+	background: #005c97;
+	background: -webkit-gradient(linear, left top, right top, from(#363795), to(#005c97));
+	background: linear-gradient(90deg, #1171f7, #ff5e5e);
+}
+
+.is-outlined {
+	background-color: transparent;
+	color: #fff;
+}
+
+.hero-cta {
+	padding: 30px 0;
+}
+
+.panel-block.section p {
+	font-size: 1.1em;
+	color: #141d9b;
+}
+
+.section.main {
+	background-color: #f0f0f0;
+}
+
+.icon-block {
+	font-size: 3.5em;
+}
+
+.nav-item > p {
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+.no-box-shadow {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.m-t-20 {
+	margin-top: 2em;
+}
+
+.m-t-30 {
+	margin-top: 3em;
+}
+
+.m-t-5 {
+	margin-top: .5em;
+}
+
+.m-y-20 {
+	margin-top: 2em !important;
+	margin-bottom: 2em !important;
+}
+.no-border {
+	border: none !important;
+}
+
+.display-block {
+	display: block;
+}
+
+.features.container .fa-clock {
+	color: #ff5e5e;
+}
+
+.features.container .fa-database {
+	color: #1178f5;
+}
+
+.features.container .fa-osi {
+	color: #33f511;
+}
+
+.features.container .fa-file-pdf {
+	color: #3acaf6;
+}
+
+.fa-twitter {
+	color: #1baae1;
+}
+.fa-github-footer {
+	color: #212121;
+}
+.fa-instagram {
+	color: #e01635;
+}
+.center-block {
+	margin: 0 auto;
+}
+.max-x-50 {
+	max-width: 50%;
+}
+.light-text {
+	color: hsla(0, 0%, 100%, .85) !important;
+}
+.light-font {
+	font-weight: 300 !important;
+}
+.join-section {
+	background: #363795;
+	color: #fff;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.join-section .title {
+	color: #fff !important;
+}
+.white-bg {
+	background: #fff;
+}
+
+.p-b-40 {
+	padding-bottom: 40px;
+}
+
+.ph-email-form {
+	background: hsla(0, 0%, 100%, .06);
+	margin: 1em;
+}
+
+.email {
+	text-align: center;
+	color: #fff;
+}
+.ph-email-form.dark .title {
+	text-align: center;
+	color: #ff3860 !important;
+}
+
+@media (min-width: 650px) {
+	.ph-email-form {
+		padding: 2em;
+		margin: 2.5em;
+	}
+}
+
+@media (min-width: 800px) {
+	.ph-email-form {
+		margin: 4em;
+	}
+	.ph-email-form .field {
+		max-width: 100%;
+	}
+}
+@media (min-width: 900px) {
+	.ph-email-form .field {
+		max-width: 80%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.ph-email-form .field {
+		max-width: 70%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.ph-email-form .field {
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.hero.is-primary .nav-menu {
+		background-color: rgba(0, 0, 0, .24);
+	}
+}
+
+.footer {
+	padding: 4rem 2.5rem 2rem;
+}
+
+.bd-tw,
+.footer {
+	background: #005c97;
+	background: -webkit-gradient(linear, left top, right top, from(#363795), to(#005c97));
+	background: linear-gradient(90deg, #ff5e5e, #1171f7);
+}
+.bd-tw {
+	border: 1px solid #e1e8ed;
+	border-radius: 5px;
+	color: #697882;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	font-family: Helvetica, Roboto, Segoe UI, Calibri, sans-serif;
+	font-size: 16px;
+	padding: 20px;
+}
+
+.bd-tw-header {
+	-webkit-box-align: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+
+.bd-tw-author,
+.bd-tw-header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.bd-tw-author {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #1c2022;
+	line-height: 1.2;
+}
+
+.bd-tw-author:hover {
+	color: #2b7bb9;
+}
+.bd-tw-avatar {
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	height: 36px;
+	margin-right: 9px;
+	width: 36px;
+}
+.bd-tw-avatar img {
+	border-radius: 290486px;
+	display: block;
+	height: 36px;
+	width: 36px;
+}
+
+.bd-tw-fullname {
+	color: currentColor;
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.bd-tw-content {
+	color: #1c2022;
+	font-size: 16px;
+	line-height: 1.4;
+	margin-top: 14px;
+}
+
+.bd-tw-content a {
+	color: #2b7bb9;
+}
+
+.bd-tw-date {
+	font-size: 14px;
+	line-height: 1.4;
+	margin-top: 3.2px;
+}
+
+.bd-tw-date a {
+	color: #697882;
+}
+
+.bd-more-loves {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-top: 1.5rem;
+	text-align: center;
+}
+
+.copyright {
+	text-align: center;
+	color: #d3d3d3;
+}

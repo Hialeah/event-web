@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Event Generator</title>
+		<link rel="shortcut icon" href="assets/images/favicon.ico"
+			type="image/x-icon">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Making your events easier">
+		<meta name="keywords" content="event, mdc, mdc-blue, eventgenerator,
+			eventapp">
+
+		<!-- Font Awesome -->
+		<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
+		<!-- Bulma -->
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css"
+			/>
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+		<!-- CSS -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <script type ="text/javascript">
+            var today = new Date;
+              window.onload = function addYear(){
+              document.getElementById('year').innerHTML = today.getFullYear();
+              };
+        </script>
+	</head>
+	<body>
+    <section class="hero is-primary header-image">
+        <div class="hero-head">
+            <header class="nav no-box-shadow">
+                <div class="container">
+                    <div class="nav-left">
+                            <div class="navbar-brand">
+                                <a class="nav-item"><img width="120" src="assets/images/event.png" alt="Logo"></a>
+                            </div>
+                    </div>
+                    <span class="nav-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <div class="nav-right nav-menu">
+                        <a href="https://docs.eventgenerator.ga" class="nav-item documentation" target="_blank"><i class="fa fa-book"></i> &nbsp; Documentation </a>
+                        <a href="/java" class="nav-item" target="_blank"><i class="fab fa-java"></i> &nbsp; Java Docs </a>
+                        <a href="https://github.com/mdcblue/event" class="nav-item slack" target="_blank"> <i class="fab fa-github"></i>&nbsp; GitHub </a>
+                        <a href="https://github.com/MDCblue/event/issues/new" class="nav-item exclamation-circle" target="_blank"> <i class="fas fa-exclamation-circle"></i>&nbsp; Issue</a>
+
+                        <div class="nav-item">
+                            <a class="button is-success" href="#download-section">
+                                <span class="icon">
+                                    <i class="fa fa-download"></i>
+                                </span>
+                                <span>Download</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <img width="120" src="assets/images/logo.png" alt="Event Logo">
+                <h1 class="title is-1 is-spaced has-text-weight-light">Event</h1>
+                <h2 class="subtitle is-3  has-text-weight-light light-text">Making your events easier</h2>
+                <h2 class="subtitle is-5 light-text"><b>Event</b> helps you organize events for your organization in your school</h2>
+                    <div>
+                      <a href="https://eventgenerator.ga/"><img src="assets/images/desktop.png" alt="EventDesktop"></a>
+                    </div>
+                    <app-showcase></app-showcase>
+                    <a class="button m-t-20 is-success is-medium" href="#download-section">
+                    <span class="icon">
+                        <i class="fa fa-download"></i>
+                    </span>
+                    <span>Download</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="main m-t-20">
+        <div class="features container">
+            <h1 class="title has-text-centered is-3 has-text-weight-light">Let's have an easier way to make events</h1>
+            <h2 class="title has-text-centered is-6 has-text-weight-light">made it for you</h2>
+            <div class="columns">
+                <div class="column is-3">
+                    <div class="panel no-box-shadow">
+                        <div class="panel-block no-border display-block section">
+                            <p class="has-text-centered"><i class="fa fa-clock icon-block"></i></p>
+                            <p class="is-5 m-t-5"><b>Event</b> helps you save time when it comes to prepare an event.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-3">
+                    <div class="panel no-box-shadow">
+                        <div class="panel-block no-border display-block section">
+                            <p class="has-text-centered"><i class="fas fa-database icon-block"></i></p>
+                            <p class="is-5 m-t-5">Manage your information its super easy with <b>Event</b></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column is-3">
+                    <div class="panel no-box-shadow">
+                        <div class="panel-block no-border display-block section">
+                            <p class="has-text-centered"><i class="fab fa-osi icon-block"></i></p>
+                            <p class="is-5 m-t-5"><b>Event</b> is an open source project, so you can freely contribute and helps us make it better</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-3">
+                    <div class="panel no-box-shadow">
+                        <div class="panel-block no-border display-block section">
+                            <p class="has-text-centered"><i class="fas fa-file-pdf icon-block"></i></p>
+                            <p class="is-5 m-t-5">Easy to get your copy printed, remember <b>Event</b> is just Easy!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="download-section" class="p-b-40">
+        <div class="container ">
+            <div class="has-text-centered m-t-30">
+                <h4 class="title is-4 has-text-centered">Download for Windows</h4>
+                <div class="columns">
+                    <div class="column">
+                        <div class="panel no-box-shadow">
+                            <div class="panel-block no-border display-block section">
+                                <p class="has-text-centered"><i class="fab fa-windows icon-block"></i></p>
+                                <a class="button is-success m-t-20 download-win" href="https://download.eventgenerator.ga">
+                                    <span class="icon">
+                                        <i class="fa fa-download"></i>
+                                    </span>
+                                    <span>Windows 7+ 64-bit</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer link">
+        <div class="container">
+            <div class="content has-text-centered has-text-link">
+                <a class="icon" href="https://instagram.com/mdcblue"> <i class="fab fa-instagram"></i> </a>
+                <a class="icon" href="https://twitter.com/mdcblue"> <i class="fab fa-twitter"></i> </a>
+                <a class="icon fa-github-footer" href="https://github.com/mdcblue"> <i class="fab fa-github"></i> </a>
+                <p></p>
+                <div>
+                    <a class="email" href="mailto:event@mdc.blue">info@mdc.blue</a>
+                    <p class="copyright">Event App © <span id="year"></span> <a href="https://mdc.blue">MDC Blue</a></p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</div>
+<script src="assets/js/event.js"></script>
+</body>
+</html>
+
